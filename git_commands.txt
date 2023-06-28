@@ -1,0 +1,34 @@
+.......... Setup ...........
+git init
+git config
+git config --list
+git config --global user.name "<name>"
+.......... Pushes ..........
+new-item -name <file name>
+
+git add <file name>
+    git restore --staged <file name>
+git commit -m <message>
+git push
+
+git restore
+..........
+git log
+git checkout <commit ID>
+
+git checkout <branch name>
+..........
+git revert <commit ID>
+..........
+git status
+git diff
+git diff --cached
+
+git log
+git log --oneline
+git show <commit checksum>
+git log -p
+git log --graph
+git log --grep=='<regexp pattern>'
+
+.......... Branches ........
