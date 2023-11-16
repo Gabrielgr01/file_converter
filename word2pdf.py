@@ -16,7 +16,7 @@ for file_name_ext in in_files:
     file_name = re.findall(".*\." ,file_name_ext)
     file_name = file_name[0]
     file_name = file_name.strip(".")
-    file_path = in_folder + file_name
+    file_path = in_folder + "\\" + file_name
     file_path_docx = file_path + ".docx"
     file_path_pdf = file_path + ".pdf"
 
